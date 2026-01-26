@@ -106,10 +106,7 @@ Ensure good lighting and clear face images while capturing.
 
 Adjust camera resolution for performance and accuracy balance.
 
-🤝 Contributing
 
-Contributions are welcome! If you have suggestions or improvements (e.g., GUI, better models, mobile integration), feel free to open an issue or submit a pull request.
-this project was developed in 2013-14 as part of BUET undergrad thesis demo app.
 
 # Second App: 📸 CaptureImage
 
@@ -196,9 +193,7 @@ Integrate them into the Myfacerecognizer module of this project.
 
 Run recognition and testing using real-time detection.
 
-🤝 Contributing
 
-Contributions are welcome! If you have enhancements (e.g., better UI, automated capture loops, improvements for lighting conditions), feel free to open an issue or submit a pull request.
 
 # 📡 Server – Elearning with Smart Phone
 
