@@ -2,7 +2,7 @@
 
 a sample android app with face recognition for IT training of students via teacher and a PHP backend.
 
-📌 MyFaceRecognizer
+# First App: 📌 MyFaceRecognizer
 
 A simple face detection and recognition tool built with Python and OpenCV as part of the Elearning-with-Smart-Phone project. This module captures faces from a live camera feed, trains a recognizer, and identifies known faces in real time.
 
@@ -111,7 +111,7 @@ Adjust camera resolution for performance and accuracy balance.
 Contributions are welcome! If you have suggestions or improvements (e.g., GUI, better models, mobile integration), feel free to open an issue or submit a pull request.
 this project was developed in 2013-14 as part of BUET undergrad thesis demo app.
 
-📸 CaptureImage
+# Second App: 📸 CaptureImage
 
 This module provides a simple Python script that captures images from a webcam and saves them to disk for use in the Elearning-with-Smart-Phone project. It’s designed as a building block for later tasks such as face recognition, dataset creation, and training models.
 
@@ -200,7 +200,7 @@ Run recognition and testing using real-time detection.
 
 Contributions are welcome! If you have enhancements (e.g., better UI, automated capture loops, improvements for lighting conditions), feel free to open an issue or submit a pull request.
 
-📡 Server – Elearning with Smart Phone
+# 📡 Server – Elearning with Smart Phone
 
 This directory contains the backend server for the Elearning-with-Smart-Phone project. It implements a RESTful API that handles data and business logic for the e-learning platform, such as user authentication, course data, and interactions with the mobile app.
 
