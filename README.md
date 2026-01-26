@@ -199,3 +199,131 @@ Run recognition and testing using real-time detection.
 🤝 Contributing
 
 Contributions are welcome! If you have enhancements (e.g., better UI, automated capture loops, improvements for lighting conditions), feel free to open an issue or submit a pull request.
+
+📡 Server – Elearning with Smart Phone
+
+This directory contains the backend server for the Elearning-with-Smart-Phone project. It implements a RESTful API that handles data and business logic for the e-learning platform, such as user authentication, course data, and interactions with the mobile app.
+
+A REST API (Representational State Transfer) is an HTTP-based web service that allows clients (mobile apps, web apps, etc.) to communicate with the server using defined endpoints and JSON data formats. This architecture helps decouple frontend and backend development for better scalability and maintenance.
+
+🚀 Features
+
+Depending on your implementation, the server may include:
+
+🧑‍💻 User Authentication & Authorization
+Login, signup, secure access control
+
+📚 Course Management
+Endpoints for creating, editing, deleting, and retrieving courses
+
+👩‍🎓 Student & Instructor Profiles
+User information, roles, and permissions
+
+📝 Content Delivery
+APIs for delivering course materials (text, media, assignments)
+
+📊 Progress Tracking
+Track user progress and completion status
+
+🔐 Secure REST API using stateless authentication tokens
+(JWT or similar) for scalable mobile integration
+
+Update this list with specifics from your server code (e.g., routes, middleware) to reflect exactly what endpoints exist.
+
+📁 Project Structure
+
+Here’s a typical structure for a REST API backend:
+
+server/
+├── controllers/          # Logic for each API route
+├── models/               # Database models or schemas
+├── routes/               # API endpoint definitions
+├── middleware/           # Authentication & utility middleware
+├── config/               # Configuration files (DB, secrets)
+├── app.js / server.js    # Entry point for the server
+├── .env                  # Environment variables
+├── package.json          # Dependencies & scripts
+└── README.md             # This file
+
+Adjust folder names and contents based on your actual project.
+
+🛠️ Requirements
+
+Before you start, make sure you have installed:
+
+Node.js (if using Node backend)
+
+Database (e.g., MongoDB / PostgreSQL / MySQL)
+
+Environment variables configured (e.g., API keys, DB connection)
+
+📦 Setup & Installation
+
+Clone the repository:
+
+git clone https://github.com/imrankhan15/Elearning-with-Smart-Phone.git
+cd Elearning-with-Smart-Phone/server
+
+Install dependencies:
+
+npm install
+
+Configure environment variables:
+
+Create a .env file and add:
+
+PORT=5000
+DB_URI=<your_database_connection_string>
+JWT_SECRET=<your_jwt_secret>
+
+Run the server:
+
+npm start
+
+The API will start listening on the configured port (e.g., http://localhost:5000
+).
+
+📡 API Endpoints
+
+Here’s a general idea of how typical REST endpoints might look. Update these according to your implementation:
+
+Method	Endpoint	Description
+POST	/auth/signup	Register a new user
+POST	/auth/login	User login
+GET	/courses	List all courses
+POST	/courses	Create a new course
+GET	/courses/:id	Get a single course
+PUT	/courses/:id	Update course
+DELETE	/courses/:id	Delete course
+
+These patterns follow standard REST API practices for e-learning servers.
+
+🔒 Security
+
+Make sure your server includes:
+
+Token-based authentication (e.g., JWT)
+
+Input validation & error handling
+
+Secure storage of credentials
+
+Proper CORS configuration
+
+These help protect user data and ensure your API is safe for production use.
+
+🧪 Testing
+
+Use tools like Postman or Insomnia to test your API endpoints. You can also include automated tests using frameworks like Jest or Mocha.
+
+🤝 Contributing
+
+Contributions are welcome! ✨
+
+Fork the repo
+
+Create a new branch (git checkout -b feature-name)
+
+Make your changes
+
+Submit a Pull Request
