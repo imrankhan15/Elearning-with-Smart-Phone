@@ -58,6 +58,7 @@ Other dependencies listed in requirements.txt
 You can install them using:
 
 pip install -r requirements.txt
+
 📥 Installation
 
 Clone the repository:
@@ -68,7 +69,9 @@ cd Elearning-with-Smart-Phone/Myfacerecognizer
 Install dependencies:
 
 pip install -r requirements.txt
+
 🧠 Usage
+
 1. Capture Face Images
 
 Run the capture script to collect images of a person:
@@ -148,6 +151,7 @@ Other packages in requirements.txt
 You can install all requirements using:
 
 pip install -r requirements.txt
+
 🛠️ Installing & Setup
 
 Clone the parent repository:
@@ -158,6 +162,7 @@ cd Elearning-with-Smart-Phone/CaptureImage
 Install dependencies:
 
 pip install -r requirements.txt
+
 🚀 How to Use
 
 Run the capture script to start capturing images from your webcam:
@@ -206,21 +211,27 @@ A REST API (Representational State Transfer) is an HTTP-based web service that a
 Depending on your implementation, the server may include:
 
 🧑‍💻 User Authentication & Authorization
+
 Login, signup, secure access control
 
 📚 Course Management
+
 Endpoints for creating, editing, deleting, and retrieving courses
 
 👩‍🎓 Student & Instructor Profiles
+
 User information, roles, and permissions
 
 📝 Content Delivery
+
 APIs for delivering course materials (text, media, assignments)
 
 📊 Progress Tracking
+
 Track user progress and completion status
 
 🔐 Secure REST API using stateless authentication tokens
+
 (JWT or similar) for scalable mobile integration
 
 Update this list with specifics from your server code (e.g., routes, middleware) to reflect exactly what endpoints exist.
